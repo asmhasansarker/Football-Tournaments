@@ -12,7 +12,7 @@ const SocialFollow = (props) => {
     // console.log(props.team)
     return (
         <div className=" social-container text-center">
-            <h1>Social Follow</h1>
+            
            
                 <a href={`https://${strTwitter}`} className="twitter social"> 
                     <FontAwesomeIcon icon={faTwitter} size="3x" />

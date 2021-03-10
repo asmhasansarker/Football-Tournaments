@@ -25,19 +25,8 @@ const TeamDetails = () => {
     }, [teamId])
 
 
-
-
-
-
-
     const { strTeam, strLeague, strDescriptionEN, strGender, intFormedYear, strCountry, strSport, strTeamBadge, strTeamBanner } = team;
     
-    
-    const bannerImage = `https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-football-match-dark-poster-banner-background-image_190185.jpg`
-
-    // const showImage = (gender) => {
-    //     <img className="card-img-top img-fluid" src={gender} alt=""/>
-    // }
 
     return (
         <div className="container-fluid custom-bg">
@@ -78,7 +67,9 @@ const TeamDetails = () => {
                     <p> {strDescriptionEN}</p>
                 </div>
                 <SocialFollow team= {team}></SocialFollow>
-                <Link to="/home"><button className="btn btn-primary">Back to Home</button></Link>
+                <div className="d-flex justify-content-center mt-3">
+                    <Link to="/"><button className="btn btn-primary">Back to Home</button></Link>
+                </div>
             </div>
             
         </div>

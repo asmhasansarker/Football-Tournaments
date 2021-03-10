@@ -1,9 +1,27 @@
-.bg-custom{
-    background-image: url("https://d3opmws30bxnoy.cloudfront.net/wp-content/uploads/2016/12/world_cup_hospitality_concierge_royist.jpg");
-    background-repeat: no-repeat, repeat;
-    height: 600px;
-    width: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 h1{
     z-index: 2;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    color:#ecf0f1;
 }
+.main-div{
+    position:relative;
+}
+.custom-position{
+    padding: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.custom-opacity{
+    opacity: 0.5;
+}
+@media screen and (max-width: 720px) {
+    h1{
+        font-size: 22px;
+        
+    }
+  }

@@ -16,8 +16,6 @@
 }
 .banner .logo img{
    height:120px;
-
-  
 }
 .custom-bg{
     background: #95a5a6;
@@ -30,3 +28,8 @@
 .custom-border{
     border-radius: 15px;
 }
+@media screen and (max-width: 720px) {
+    .banner .logo img{
+        height:50px;
+     }
+  }
