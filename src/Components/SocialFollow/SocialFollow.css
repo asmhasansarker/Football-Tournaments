@@ -1,0 +1,27 @@
+.custom-bg{
+    background: #95a5a6;
+}
+.social-container{
+    background: #95a5a6;
+    padding: 25px 50px;
+}
+a.social{
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover{
+    transform: translateY(-2px);
+}
+a.youtube{
+    color:#eb3223;
+}
+a.facebook{
+    color:#4968ad;
+}
+a.twitter{
+    color: #49a1eb;
+}
+a.instagram{
+    color:#8a3ab9;
+}

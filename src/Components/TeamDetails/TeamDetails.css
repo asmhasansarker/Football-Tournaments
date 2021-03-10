@@ -1,0 +1,32 @@
+.banner{
+    position: relative;
+    z-index: 1;
+    
+    
+}
+.banner .banner-img{
+    opacity: 0.2;
+}
+.banner .logo{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner .logo img{
+   height:120px;
+
+  
+}
+.custom-bg{
+    background: #95a5a6;
+}
+.team-info img{
+    height:20px;
+    margin-right: 10px;
+    color:white
+}
+.custom-border{
+    border-radius: 15px;
+}

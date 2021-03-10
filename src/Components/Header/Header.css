@@ -1,0 +1,9 @@
+.bg-custom{
+    background-image: url("https://d3opmws30bxnoy.cloudfront.net/wp-content/uploads/2016/12/world_cup_hospitality_concierge_royist.jpg");
+    background-repeat: no-repeat, repeat;
+    height: 600px;
+    width: 100%;
+}
+h1{
+    z-index: 2;
+}
