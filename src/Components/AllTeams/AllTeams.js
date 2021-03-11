@@ -17,7 +17,7 @@ const AllTeams = () => {
             
             <div className="row text-center ml-5">
                 {
-                   teams.map(team => <Team team={team}></Team>)
+                   teams.map(team => <Team key={team.idTeam} team={team}></Team>)
                 }
             </div>
             

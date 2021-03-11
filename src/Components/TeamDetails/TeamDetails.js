@@ -63,7 +63,10 @@ const TeamDetails = () => {
 
                     </div>
                 </div>
-                <div className="w-90 px-2 m-3 text-white">
+                <div className="text-center text-bold">
+                    <h4>Description</h4>
+                </div>
+                <div className="w-90 px-2 m-3 ">
                     <p> {strDescriptionEN}</p>
                 </div>
                 <SocialFollow team= {team}></SocialFollow>

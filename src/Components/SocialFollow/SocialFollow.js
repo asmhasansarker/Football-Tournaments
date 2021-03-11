@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
 import { faYoutube, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import './SocialFollow.css'
-// import { Link } from 'react-router-dom';
+
 
 const SocialFollow = (props) => {
 
